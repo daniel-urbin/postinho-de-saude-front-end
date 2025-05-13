@@ -1,10 +1,4 @@
-/**
- * These are configuration settings for the production environment.
- *
- * Do not include API secrets in this file or anywhere in your JS.
- *
- * https://reactnative.dev/docs/security#storing-sensitive-info
- */
 export default {
-  API_URL: "CHANGEME",
+  ADDRESS_API_URL: "https://viacep.com.br",
+  API_URL: "http://3.235.250.125:3000",
 }
